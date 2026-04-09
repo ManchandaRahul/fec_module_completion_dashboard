@@ -1584,22 +1584,22 @@
   {
     "module": "Export",
     "subModule": "Manage Export",
-    "task": "Awaiting CLient Requirement",
-    "description": "Awaiting CLient Requirement",
+    "task": "Awaiting Client Requirement",
+    "description": "Awaiting Client Requirement",
     "status": "PENDING"
   },
   {
     "module": "Export",
     "subModule": "Create Export Manual",
-    "task": "Awaiting CLient Requirement",
-    "description": "Awaiting CLient Requirement",
+    "task": "Awaiting Client Requirement",
+    "description": "Awaiting Client Requirement",
     "status": "PENDING"
   },
   {
     "module": "Export",
     "subModule": "Bulk Upload Export",
-    "task": "Awaiting CLient Requirement",
-    "description": "Awaiting CLient Requirement",
+    "task": "Awaiting Client Requirement",
+    "description": "Awaiting Client Requirement",
     "status": "PENDING"
   },
   {
