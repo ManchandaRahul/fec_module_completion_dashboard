@@ -1584,22 +1584,22 @@
   {
     "module": "Export",
     "subModule": "Manage Export",
-    "task": "CLIENT SIDE PENDING",
-    "description": "CLIENT SIDE PENDING",
+    "task": "Awaiting CLient Requirement",
+    "description": "Awaiting CLient Requirement",
     "status": "PENDING"
   },
   {
     "module": "Export",
     "subModule": "Create Export Manual",
-    "task": "CLIENT SIDE PENDING",
-    "description": "CLIENT SIDE PENDING",
+    "task": "Awaiting CLient Requirement",
+    "description": "Awaiting CLient Requirement",
     "status": "PENDING"
   },
   {
     "module": "Export",
     "subModule": "Bulk Upload Export",
-    "task": "CLIENT SIDE PENDING",
-    "description": "CLIENT SIDE PENDING",
+    "task": "Awaiting CLient Requirement",
+    "description": "Awaiting CLient Requirement",
     "status": "PENDING"
   },
   {
