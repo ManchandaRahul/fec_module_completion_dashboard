@@ -262,10 +262,9 @@ const downloadSessionData = () => {
   const useVerticalChart = isMasterModule || subModuleData.length > 15;
 
   // Dynamic settings
-  const chartHeight = useVerticalChart ? 520 : (needsCompactChart ? 300 : 260);
-  const barThickness = useVerticalChart ? 22 : (needsCompactChart || subModuleData.length > 12 ? 16 : 24);
+const chartHeight = useVerticalChart ? 520 : (needsCompactChart ? 340 : 320);  const barThickness = useVerticalChart ? 22 : (needsCompactChart || subModuleData.length > 12 ? 16 : 24);
   const yTickSize = subModuleData.length > 12 ? 8.5 : needsCompactChart ? 9 : 10;
-  const yAxisWidth = subModuleData.length > 12 ? 170 : needsCompactChart ? 140 : 160;
+const yAxisWidth = subModuleData.length > 12 ? 160 : needsCompactChart ? 140 : 150;
 
   // Master module specific Done color
   const doneColor = isMasterModule ? "#10b981" : "#22c55e";
@@ -535,8 +534,8 @@ const downloadSessionData = () => {
                           <BarChart 
                             data={subModuleData} 
                             layout="vertical" 
-                            margin={{ left: yAxisWidth, right: 40, top: 10, bottom: 30 }}
-                          >
+margin={{ left: 0, right: 20, top: 10, bottom: 40 }}
+                    >
                             <XAxis 
                               type="number" 
                               tick={{ fontSize: 11 }} 
@@ -547,19 +546,20 @@ const downloadSessionData = () => {
                                 style: { fontSize: 12, fontWeight: 500, fill: "#475569" }
                               }}
                             />
-                            <YAxis 
-                              type="category" 
-                              dataKey="name" 
-                              tick={{ fontSize: yTickSize }} 
-                              width={yAxisWidth}
-                              label={{ 
-                                value: "Submodule Name", 
-                                angle: -90, 
-                                position: "insideLeft", 
-                                offset: -15,
-                                style: { fontSize: 12, fontWeight: 500, fill: "#475569", textAnchor: "middle" }
-                              }}
-                            />
+                          <YAxis 
+  type="category" 
+  dataKey="name" 
+  tick={{ fontSize: yTickSize }}
+  width={yAxisWidth}
+  tickFormatter={(value) => value.length > 22 ? value.substring(0, 20) + "…" : value}
+  label={{ 
+    value: "Submodule Name", 
+    angle: -90, 
+    position: "insideLeft", 
+    offset: -15,
+    style: { fontSize: 12, fontWeight: 500, fill: "#475569", textAnchor: "middle" }
+  }}
+/>
                             <Tooltip />
                             <Bar dataKey="DONE" stackId="a" fill="#22c55e" name="Done" barSize={barThickness} />
                             <Bar dataKey="PENDING" stackId="a" fill="#f59e0b" name="Pending" barSize={barThickness} />
