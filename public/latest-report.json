@@ -1,0 +1,1724 @@
+[
+  {
+    "module": "Masters",
+    "subModule": "Activity Workflow Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Activity Workflow Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Activity Workflow Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Activity Workflow Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Activity Workflow Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "BE Category Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "BE Category Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "BE Category Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "BE Category Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "BE Category Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Branch",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Branch",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Branch",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Branch",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Branch",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Bulk Additional Field Update",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Bulk Additional Field Update",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Bulk Additional Field Update",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Bulk Additional Field Update",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Bulk Additional Field Update",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Continuity Bond Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Continuity Bond Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Continuity Bond Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Continuity Bond Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Continuity Bond Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Country Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Country Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Country Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Country Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Country Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom House Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom House Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom House Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom House Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom House Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Custom Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Department Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Department Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Department Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Department Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Department Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Doc Type Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Doc Type Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Doc Type Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Doc Type Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Doc Type Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Document Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Document Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Document Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Document Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Document Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Employee",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Employee",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Employee",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Employee",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Employee",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Esanchit Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Esanchit Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Esanchit Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Esanchit Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Esanchit Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Expense Head",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Expense Head",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Expense Head",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Expense Head",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Expense Head",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "GST Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "GST Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "GST Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "GST Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "GST Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Item Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Item Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Item Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Item Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Item Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Job Type Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Job Type Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Job Type Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Job Type Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Job Type Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "License Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "License Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "License Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "License Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "License Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Milestone Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Milestone Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Milestone Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Milestone Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Milestone Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Organisation Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Organisation Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Organisation Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Organisation Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Organisation Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Port Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Port Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Port Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Port Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Port Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Purpose Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Purpose Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Purpose Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Purpose Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Purpose Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Quick Status",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Quick Status",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Quick Status",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Quick Status",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Quick Status",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Role Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Role Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Role Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Role Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Role Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Step Documents Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Step Documents Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Step Documents Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Step Documents Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Step Documents Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Tds Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Tds Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Tds Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Tds Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Tds Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Transit Insurance Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Transit Insurance Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Transit Insurance Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Transit Insurance Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Transit Insurance Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Type Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Type Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Type Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Type Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Vehicle Type Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Warehouse Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Warehouse Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Warehouse Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Warehouse Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Warehouse Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Category Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Category Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Category Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Category Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Category Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Master",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Master",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Master",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Master",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Master",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Name",
+    "task": "LISTING",
+    "description": "Listing: Viewall records with search and sorting options.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Name",
+    "task": "FILTER",
+    "description": "Filter: Narrow down records based on specific criteria for quick access.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Name",
+    "task": "ADD",
+    "description": "Add: Create and save new records with required details.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Name",
+    "task": "UPDATE",
+    "description": "Update: Edit and modify existing records as needed.",
+    "status": "DONE"
+  },
+  {
+    "module": "Masters",
+    "subModule": "Workflow Name",
+    "task": "DELETE",
+    "description": "Delete: Remove records from the system securely USING CHANGE STATU S",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "Live Job List Tab (DONE)",
+    "description": "NEW Updateation not coming",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "ETA+Verify IGM Tab (DONE)",
+    "description": "NEW Updateation not coming",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "P2F tab (DONE)",
+    "description": "NEW Updateation not coming",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "Delivery Order (DO) Tab (DONE)",
+    "description": "NEW Updateation not coming",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "Container Tracker Tab (DONE)",
+    "description": "NEW Updateation not coming",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "PGA Tab (Coming Soon)",
+    "description": "NEW Updateation not coming",
+    "status": "AWAITING REQUIREMENT FROM CLIENT"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "OOC  Tab (DONE)",
+    "description": "NEW Updateation not coming",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "DLY  Tab (DONE)",
+    "description": "NEW Updateation not coming",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "Payment Tab (Coming Soon)",
+    "description": "NEW Updateation not coming",
+    "status": "AWAITING REQUIREMENT FROM CLIENT"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Import Jobs",
+    "task": "HO Tab (DONE)",
+    "description": "NEW Updateation not coming",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Upload Manual File",
+    "task": "Upload Job Excel (RPA1)",
+    "description": "This is just a page to upload the files",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Upload Manual File",
+    "task": "Upload Be File (RPA2)",
+    "description": "This is just a page to upload the files",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Upload Manual File",
+    "task": "Upload Duty Excel",
+    "description": "This is just a page to upload the files",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "View Jobs Import Log",
+    "task": "Import Log Listing with filter",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Regularise B/E (P2F)",
+    "task": "dublicate of Manage Import Job With Updated Verison",
+    "description": "Job listing page",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Regularise B/E (P2F) - New",
+    "task": "Live Job List Tab (DONE)",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Regularise B/E (P2F) - New",
+    "task": "ETA+Verify IGM Tab (DONE)",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Regularise B/E (P2F) - New",
+    "task": "P2F tab (DONE)",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Regularise B/E (P2F) - New",
+    "task": "Delivery Order (DO) Tab (DONE)",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Regularise B/E (P2F) - New",
+    "task": "Container Tracker Tab (DONE)",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Regularise B/E (P2F) - New",
+    "task": "PGA Tab (Coming Soon)",
+    "description": "Listing page for view purpose",
+    "status": "AWAITING REQUIREMENT FROM CLIENT"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Delivery Order (DO)",
+    "task": "open Manage DO Tab direct",
+    "description": "",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage PGA",
+    "task": "open Manage PGA Tab direct",
+    "description": "",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Manage Delivery",
+    "task": "Not Working",
+    "description": "",
+    "status": "AWAITING REQUIREMENT FROM CLIENT"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Completed Delivery",
+    "task": "Not Working",
+    "description": "",
+    "status": "AWAITING REQUIREMENT FROM CLIENT"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Completed Job Handover",
+    "task": "Not Working",
+    "description": "",
+    "status": "AWAITING REQUIREMENT FROM CLIENT"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Operations Listing",
+    "task": "Accounting Listing with hover effect.",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Operations Listing",
+    "task": "Search by / Filter by",
+    "description": "search in the listing page",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Operations Listing",
+    "task": "Statistics / Actionables",
+    "description": "statistics for the listing page",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Operations Listing",
+    "task": "Old All Functionlity Copy From Old list page and Handel All like Multiselect etc.",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Accounting Listing",
+    "task": "Accounting Listing with hover effect.",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Accounting Listing",
+    "task": "Search by / Filter by",
+    "description": "search in the listing page",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Accounting Listing",
+    "task": "Statistics / Actionables",
+    "description": "statistics for the listing page",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Accounting Listing",
+    "task": "Old All Functionlity Copy From Old list page and Handel All like Multiselect etc.",
+    "description": "Listing page for view purpose",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "Submit Payment Request",
+    "task": "1.Create and manage payment requests for vendor invoices and expense vouchers in a structured and compliant workflow.",
+    "description": "generate pdf for , and document's like e docket and all",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "Submit Payment Request",
+    "task": "2. Creation and submission of the PR-BR form by the user",
+    "description": "CHANGES IN UI FOR PAYMENT REQUEST",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "Submit Payment Request",
+    "task": "3. Selection of job details, beneficiary information, invoice specifics, and expense heads while automatically calculating of thir GST, TDS, totals, and net payable amounts in real time.",
+    "description": "WHEN SELECT TO BENEFICAIRY CHECK ALL MATCHING CONDITION RELATED TO TDS WITH MAPPED WITH COMAPNY TYPE PAN\r\n\r\nAND TAKE THIS VALUES FORM ORGANISATION TDS Exempted\r\n\r\nSection\r\n\r\nPercentage\r\n\r\nValid Upto\r\n\r\n\r\n\r\nPAN Number *\r\n\r\nGST Number *\r\n\r\nSelect GST\r\n\r\nPayment Mode *\r\n\r\n-- Select Payment Mode --\r\n\r\nCredit Days\r\n\r\nChange default Bank",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "Submit Payment Request",
+    "task": "4. Auto-generate narration based on defined accounting scenarios, including 1 Purchase scenario and 6 JV(api) scenarios in the system",
+    "description": "Scenario 1  Is Invoice / Voucher?   Invoice TDS Payable By: FEC Clearing Pvt. Ltd.  PURCHASE - T1   BEING BOOKING OF PURCHASE(T1) INV NO.: ABC1234 DATED: 17.11.2025 OF VENDOR BENEFICIARY NAME COMPANY PVT. LTD. FOR SHIPPING LINE DETENTION CHARGES OF JOB: IMP/01234/SEA/25-26 CLIENT: IMPORTER ALIAS, PR BY: KEDAR BHOSALE\r\n\r\n    Invoice in favour of:   FEC Clearing Pvt. Ltd.  (will be fixed as FEC Clearing, cannot select another org.)        \r\n\r\n                       \r\n\r\n    Is Invoice with GST?    Yes OR No   If GST is Yes, then all GST columns will be enabled        \r\n\r\n            If GST is No, then all GST columns will be disabled        \r\n\r\n            If For Purpose head is TRANSPORTATION,         \r\n            then Is RCM? Enabled    Yes or No to be selected       \r\n\r\n                       \r\n\r\n    TDS Exempted    Yes TDS Payable By: NA - will be disabled / and also TDS% and TDS values       \r\n\r\n            (will be disabled and show value as 'NA')          \r\n\r\n                       \r\n\r\nScenario 2  Is Invoice / Voucher?   Invoice         JV - T1 BEING BOOKING OF JV(T1) INV NO.: ABC1234 DATED: 17.11.2025 OF TP VENDOR BENEFICIARY NAME COMPANY PVT. LTD. FOR SHIPPING LINE DETENTION CHARGES OF JOB: IMP/01234/SEA/25-26 AT ACTUAL AS PURE AGENT O/B OF CLIENT: IMPORTER ALIAS, PR BY: KEDAR BHOSALE\r\n\r\n    Invoice in favour of:   Other than FEC (Client/Importer/Exporter)              \r\n\r\n    Is Statutory Payment?   No             \r\n\r\n    Is Invoice with GST?    Yes            \r\n\r\n    TDS Payable By: FEC Clearing Pvt. Ltd.             \r\n\r\n                       \r\n\r\nScenario 3  Is Invoice / Voucher?   Invoice -       JV - T2 BEING BOOKING OF JV(T2) INV NO.: ABC1234 DATED: 17.11.2025 OF TP VENDOR BENEFICIARY NAME COMPANY PVT. LTD. FOR SHIPPING LINE DETENTION CHARGES OF JOB: IMP/01234/SEA/25-26 AT ACTUAL AS PURE AGENT O/B OF CLIENT: IMPORTER ALIAS, PR BY: KEDAR BHOSALE\r\n\r\n    Invoice in favour of:   Other than FEC (Client/Importer/Exporter)              \r\n\r\n    Is Statutory Payment?   No             \r\n\r\n    Is Invoice with GST?    Yes            \r\n\r\n    TDS Payable By: Other than FEC (Client/Importer/Exporter)              \r\n\r\n                       \r\n\r\nScenario 4  Is Invoice / Voucher?   Invoice TDS Payable By: NA - will be disabled / and also TDS% and TDS values    JV - T3 BEING BOOKING OF JV(T3) INV NO.: ABC1234 DATED: 17.11.2025 OF TP VENDOR BENEFICIARY NAME COMPANY PVT. LTD. FOR SHIPPING LINE DETENTION CHARGES OF JOB: IMP/01234/SEA/25-26 AT ACTUAL AS PURE AGENT O/B OF CLIENT: IMPORTER ALIAS, PR BY: KEDAR BHOSALE\r\n\r\n    Invoice in favour of:   Other than FEC (Client/Importer/Exporter)   (will be disabled and show value as 'NA')          \r\n\r\n    Is Statutory Payment?   No             \r\n\r\n    Is Invoice with GST?    Yes            \r\n    TDS Exempted    Yes            \r\n\r\n                       \r\n\r\n                       \r\n\r\nScenario 5  Is Invoice / Voucher?   Invoice TDS Exempted    fixed as Yes    JV - T4 BEING BOOKING OF JV(T4) INV NO.: ABC1234 DATED: 17.11.2025 OF TP VENDOR BENEFICIARY NAME COMPANY PVT. LTD. FOR SHIPPING LINE DETENTION CHARGES OF JOB: IMP/01234/SEA/25-26 AT ACTUAL AS PURE AGENT O/B OF CLIENT: IMPORTER ALIAS, PR BY: KEDAR BHOSALE\r\n\r\n    Invoice in favour of:   Other than FEC (Client/Importer/Exporter)   TDS Payable By: NA - will be disabled / and also TDS% and TDS values       \r\n\r\n    Is Statutory Payment?   Yes (will be disabled and show value as 'NA' - as Beneficiary is Government Authority)         \r\n\r\n    Is Invoice with GST?    Yes OR No   If GST is Yes, then all GST columns will be enabled        \r\n\r\n            If GST is No, then all GST columns will be disabled        \r\n\r\n                       \r\n\r\nScenario 6  Is Invoice / Voucher?   Invoice GST = No, so all GST columns will be disabled       JV - T5 BEING BOOKING OF JV(T5) INV NO.: ABC1234 DATED: 17.11.2025 OF TP VENDOR BENEFICIARY NAME COMPANY PVT. LTD. FOR SHIPPING LINE DETENTION CHARGES OF JOB: IMP/01234/SEA/25-26 AT ACTUAL AS PURE AGENT O/B OF CLIENT: IMPORTER ALIAS, PR BY: KEDAR BHOSALE\r\n\r\n    Invoice in favour of:   Other than FEC (Client/Importer/Exporter)   If For Purpose head is TRANSPORTATION,      with or without RCM\r\n\r\n    Is Statutory Payment?   No  Then Is RCM? Field will get enabled        \r\n\r\n    Is Invoice with GST?    No  Is RCM? Yes or No to be selected       \r\n\r\n    TDS Payable By: FEC Clearing Pvt. Ltd.             \r\n\r\n            For all other For Purpose head, Is RCM? Will be disabled           \r\n\r\n                       \r\n\r\nScenario 7  Is Invoice / Voucher?   Invoice GST = No, so all GST columns will be disabled       JV - T6 BEING BOOKING OF JV(T6) INV NO.: ABC1234 DATED: 17.11.2025 OF TP VENDOR BENEFICIARY NAME COMPANY PVT. LTD. FOR SHIPPING LINE DETENTION CHARGES OF JOB: IMP/01234/SEA/25-26 AT ACTUAL AS PURE AGENT O/B OF CLIENT: IMPORTER ALIAS, PR BY: KEDAR BHOSALE\r\n\r\n    Invoice in favour of:   Other than FEC (Client/Importer/Exporter)   If For Purpose head is TRANSPORTATION,      with or without RCM\r\n\r\n    Is Statutory Payment?   No  Then Is RCM? Field will get enabled        \r\n    Is Invoice with GST?    No  Is RCM? Yes or No to be selected       \r\n\r\n    TDS Payable By: Other than FEC (Client/Importer/Exporter)              \r\n\r\n            For all other For Purpose head, Is RCM? Will be disabled",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "Submit Payment Request",
+    "task": "5. Uploading of invoices, defining of approval workflows, and ensure accurate posting to Tally by the User",
+    "description": "WHEN USER SELECT INVOICE THEN MANDATORY FOR INVOICE UPLOAD\r\n\r\nAND ITS IONVOICE SHOW TILL END EVEN ITS SHOW ON VERIFICATION TAB ALSO",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "Submit Payment Request",
+    "task": "6. Validations and automated calculations",
+    "description": "GST CALCULATION WHEN USER CAN ENTER AMOUNT AFTER SELECT ON EXPENSE HEAD SELECT GST CALCULATED WHEN EXPENSE HEAD ALSO SELECT IS GST IN EXPENSE HEAD MASTER AND DIFFRENT FOR RCM",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "PR Approval",
+    "task": "1. The finance team reviews, approves, or reject submitted PR-BR requests through a centralized and controlled workflow.The request, including beneficiary details, job references, approval history, and current status are visible",
+    "description": "The PR Verification & Booking page allows finance users to review, verify, and complete the booking process for approved PR-BR requests through a structured workflow. The page includes advanced search and filter options, quick view access, and Excel download functionality for efficient tracking and reporting.",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "PR Approval",
+    "task": "2. Functionality of advanced search and filter options such as job number, beneficiary name, invoice number, purpose, issuer, approver, cost centre, and CRM to locate the request. The system also clearly displays who approved, who rejected, current status, and approval timelines, including approval pending days for better tracking and follow-ups.",
+    "description": "ADD FILTERS IN ALL TABS FOR JOB\r\n\r\nJob Number\r\n\r\nSearch by Job No\r\n\r\nBE / SB Number\r\n\r\nBE / SB Number..\r\n\r\nImporter / Exporter\r\n\r\nSelect\r\n\r\nBeneficiary Name\r\n\r\nBeneficiary Name\r\n\r\nBeneficiary Invoice Number\r\n\r\nBeneficiary Invoice Number\r\n\r\nFor Purpose\r\n\r\nSelect For Purpose\r\n\r\nIssued By\r\n\r\nIssued By\r\n\r\nApproved BY\r\n\r\nApproved BY\r\n\r\nCost Centre\r\n\r\nCost Centre\r\n\r\n\r\n\r\nSearch\r\n\r\n\r\n\r\nReset\r\n\r\nCRM\r\n\r\nStatistics / Actionables\r\n\r\nApproval Pending    2\r\n\r\nRejected    0\r\n\r\nJV (b.pending)  0\r\n\r\nPurchase (b. pending)   0\r\n\r\nPR Issued On    From Date  \r\n\r\nSelect Date\r\n\r\nTo Date\r\n\r\nSelect Date\r\n\r\nSearch  \r\n\r\nPR Approval History From Date  \r\n\r\nSelect Date\r\n\r\nTo Date",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "PR Approval",
+    "task": "3. Functionality to Approve, Reject, Delete PR-BR, and download data using the Excel export option. The page also includes actionable dashboards for pending JV and Purchase approvals, approval history tracking, and date-wise search controls",
+    "description": "Finance users can take direct actions from this screen, including Approve, Reject, Delete PR-BR, and download data using the Excel export option. The page also includes actionable dashboards for pending JV and Purchase approvals, approval history tracking, and date-wise search controls—ensuring transparency, accountability, and efficient approval management   WHEN CHECK BOX CHED THEN  APPROVED MUTIPLE ALSO AND REJHECT ALSO",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "PR Verification and Booking",
+    "task": "1.  Finance users can review, verify, and complete the booking process for approved PR-BR requests through a structured workflow. The page also includes advanced search and filter options, quick view access, and Excel download functionality.",
+    "description": "Once verified, users can proceed with booking actions including Submit PR to Payment. If API integration is unavailable, the system supports manual processing, allowing users to upload voucher numbers and complete booking directly from this page",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "PR Verification and Booking",
+    "task": "2. Users can open PR-BR records using the Verify option, which displays the uploaded PR-BR PDFs for detailed review. After checking documents, users can mark the request as Verified or raise a Discrepancy if any mismatch is found",
+    "description": "Users can open PR-BR records using the Verify option, which displays the uploaded PR-BR PDFs for detailed review. After checking documents, users can mark the request as Verified or raise a Discrepancy if any mismatch is found—ensuring accuracy and compliance before booking",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "PR Payment",
+    "task": "1. This module allows finance users to record and manage payment updates for booked PR-BR transactions. Users can process payments using multiple options including Full Payment, Net Payment, Only GST, or Partial Payment, depending on the transaction requirement.",
+    "description": "USER CAN UPDATE MULTI PAYMENT ALSO THERE ALSO HAVE PREVISION FOR DOWNLOAD",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "PR Payment",
+    "task": "2. The Generate ENET Files functionality allows finance users to create bank-ready payment files directly from approved and booked PR-BR transactions. The system generates ENET files in a structured bank format using a predefined series-wise reference pattern (e.g., PR260307-001), ensuring consistency and traceability for every payment batch.",
+    "description": "before enet file user can generate lot numbers also",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "PR Payment",
+    "task": "3. With automated series generation, structured formatting, and seamless bank integration, the ENET feature ensures fast, accurate, and efficient payment execution.",
+    "description": "Users can generate ENET files for single or multiple PRs from the payment lot. Once generated, the file can be uploaded directly to the bank portal for payment processing.",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "Submit for Billing",
+    "task": "1. record and manage payment updates for booked PR-BR transactions with full flexibility and control. Users can process payments using multiple options including Full Payment, Net Payment, Only GST, or Partial Payment, depending on the transaction requirement.",
+    "description": "when user click on pop  - op then have option for this manage of payment its onine partial also",
+    "status": "DONE"
+  },
+  {
+    "module": "Accounting",
+    "subModule": "Submit for Billing",
+    "task": "2. Generation of ENET Files functionality allows finance users to create bank-ready payment files directly from approved and booked PR-BR transactions. The system generates ENET files in a structured bank format using a predefined series-wise reference pattern (e.g., PR260307-001), ensuring consistency and traceability for every payment batch and payment execution.",
+    "description": "before enet file user can generate lot numbers also The Submit Payment Request page enables users to create and manage payment requests for vendor invoices and expense vouchers in a structured and compliant workflow. Users can also create and submit the PR-BR form directly from this page",
+    "status": "DONE"
+  },
+  {
+    "module": "Warehousing",
+    "subModule": "Bond Stock Management",
+    "task": "MASTER",
+    "description": "FILTER , LISTING , DOWNLOAD PDF OPTION ,Statistics / Actionables, when click on eye button then also apply filter's , MASTER WITH NEW UI USING PARTIAL VIEW , VERIFY GRN , PAGINATION",
+    "status": "DONE"
+  },
+  {
+    "module": "Warehousing",
+    "subModule": "Bond Expiry Panel",
+    "task": "MASTER AND REPORTS",
+    "description": "BTBT BOND EXPIRY DETAILS, GRAFH'S AND DIAGRAM, INVOICE AND ITEM WISE DETAILS , STOCK DETAILS - BOND EXPIRY , FILTERS ALL DATA ALSO",
+    "status": "DONE"
+  },
+  {
+    "module": "BTBT",
+    "subModule": "Manage BTBT Orders",
+    "task": "BTBT JOB CREATRE AND UPDATE LISTIING",
+    "description": "This module provides a centralized interface to create, manage, and update all BTBT jobs. It allows users to view detailed job listings, track status, edit job information, and ensure smooth operational control. Advanced filtering, search options, and real-time updates help in efficiently handling large volumes of orders.",
+    "status": "DONE"
+  },
+  {
+    "module": "BTBT",
+    "subModule": "Manual BTBT Order Create",
+    "task": "BTBT JOB CREATRE AND UPDATE FORM",
+    "description": "This feature enables users to manually create BTBT jobs through a structured form interface. It ensures accurate data entry with validation checks, allowing users to input all required job details such as location, client information, delivery specifics, and job parameters.",
+    "status": "DONE"
+  },
+  {
+    "module": "BTBT",
+    "subModule": "Bulk Upload Outbound Order Create",
+    "task": "BTBT JOB UPLOAD IN HUGE AMOUT",
+    "description": "Designed for high-volume operations, this module allows users to upload multiple BTBT jobs in bulk using file formats like Excel/CSV. It significantly reduces manual effort and speeds up job creation while ensuring data consistency through predefined templates and validation mechanisms.",
+    "status": "DONE"
+  },
+  {
+    "module": "BTBT",
+    "subModule": "Bulk Upload Log",
+    "task": "STORED LOGS AND HISTORY FOR BTBT JOBS",
+    "description": "This module maintains a complete history of all bulk uploads. It provides detailed logs including upload status, success/failure records, error reports, and timestamps. Users can review and reprocess failed entries, ensuring transparency and control over bulk operations.",
+    "status": "DONE"
+  },
+  {
+    "module": "BTBT",
+    "subModule": "BTBT Live Jobs Client Panel",
+    "task": "GATE SHORT AND QUICK  INFORMATION USING SIDE PANEL",
+    "description": "A dynamic side-panel interface that displays live job updates in real-time. It provides quick insights into job progress, status changes, and key information, enabling faster decision-making and improved client communication without navigating away from the main screen.",
+    "status": "DONE"
+  },
+  {
+    "module": "BTBT",
+    "subModule": "Manage Delivery",
+    "task": "RELATED TO BTBT JOBS FOR DELIVERY",
+    "description": "This module handles all delivery-related operations linked to BTBT jobs. It allows assignment of deliveries, tracking of delivery status, updating dispatch details, and ensuring timely execution of jobs with full visibility across the delivery lifecycle.",
+    "status": "DONE"
+  },
+  {
+    "module": "BTBT",
+    "subModule": "Manage Vehicle",
+    "task": "RELATED DELIVERY VEHICLE",
+    "description": "A dedicated module for managing delivery vehicles. It includes vehicle registration, allocation to jobs, tracking usage, and maintaining vehicle-related records. This ensures optimized utilization of resources and efficient delivery planning.",
+    "status": "DONE"
+  },
+  {
+    "module": "BTBT",
+    "subModule": "RWC Panel",
+    "task": "REPORT'S AND LISTING , AND STATEMENTS",
+    "description": "The RWC Panel serves as a comprehensive reporting and monitoring system. It provides detailed reports, job listings, performance analytics, and statements. This module helps management gain insights into operations and supports data-driven decision-making.",
+    "status": "DONE"
+  },
+  {
+    "module": "BTBT",
+    "subModule": "Report Scheduler",
+    "task": "AUTO MAIL SCHEDULER",
+    "description": "An automated reporting system that generates and sends reports via email at scheduled intervals. Users can configure report types, recipients, and timing, ensuring stakeholders receive timely updates without manual intervention.",
+    "status": "DONE"
+  },
+  {
+    "module": "Export",
+    "subModule": "Manage Export",
+    "task": "CLIENT SIDE PENDING",
+    "description": "CLIENT SIDE PENDING",
+    "status": "PENDING"
+  },
+  {
+    "module": "Export",
+    "subModule": "Create Export Manual",
+    "task": "CLIENT SIDE PENDING",
+    "description": "CLIENT SIDE PENDING",
+    "status": "PENDING"
+  },
+  {
+    "module": "Export",
+    "subModule": "Bulk Upload Export",
+    "task": "CLIENT SIDE PENDING",
+    "description": "CLIENT SIDE PENDING",
+    "status": "PENDING"
+  },
+  {
+    "module": "Report",
+    "subModule": "Reports Scheduler Master",
+    "task": "MASTER",
+    "description": "FILTER , LISTING , ADD , UPDATE , FOR SCEDULER REPORT - DATA SEND FROM HERE IN FROPDOWN OF REPORT SCEDULER",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Email Setup",
+    "task": "EMAIL TEMPLATE SETUP",
+    "description": "FILTER , LISTING , ADD , UPDATE for Email Template",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Email Setup",
+    "task": "REPORT TEMPLATE SETUP",
+    "description": "FOR SCEDULER REPORT - DATA SEND FROM GENERATE REPORT USING THIS MASTER",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Update Milestones Excel",
+    "task": "Download Milestone Excel",
+    "description": "GIVEN PROVISION FOR DOWNLOAD HUGE AMOUNT OF MILESTONE DATA - DEPEND ON IMPORTER NAME AND CRM ND ALSO",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Update Milestones Excel",
+    "task": "Upload Milestone Excel",
+    "description": "GIVEN PROVISION FOR UPLOAD HUGE AMOUNT OF MILESTONE DATA - DEPEND ON IMPORTER NAME AND CRM ND ALSO",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Data Folders",
+    "task": "MAIN FOLDER TYPE",
+    "description": "GIVE PROVISION FOR UPLOAD DOCUMENT'S , MAPPED WITH ORGANISATION AND IMPORT AND  JOBS",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Data Folders",
+    "task": "FOLDERNAME",
+    "description": "GIVE PROVISION FOR UPLOAD DOCUMENT'S , MAPPED WITH ORGANISATION AND IMPORT AND  JOBS",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Data Folders",
+    "task": "FOLDERNAME",
+    "description": "GIVE PROVISION FOR UPLOAD DOCUMENT'S , MAPPED WITH ORGANISATION AND IMPORT AND  JOBS",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Data Folders",
+    "task": "SUBFOLDER",
+    "description": "GIVE PROVISION FOR UPLOAD DOCUMENT'S , MAPPED WITH ORGANISATION AND IMPORT AND BTBTB JOBS",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Data Folders",
+    "task": "SUBFOLDER CONTENT",
+    "description": "GIVE PROVISION FOR UPLOAD DOCUMENT'S , MAPPED WITH ORGANISATION AND IMPORT AND  JOBS",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Job / User Fields Setup",
+    "task": "fieldGroup",
+    "description": "CREATE MASTER FOR ALL THIS fieldGroup",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Job / User Fields Setup",
+    "task": "Assign Database Fields to Group Name",
+    "description": "Assign Database Fields to Group Name",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Job / User Fields Setup",
+    "task": "Create Custome User Fields",
+    "description": "Create Custom User Fields AND GIVE OPTION FOR DELETE AND FILTER AND LISTING",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "WhatsApp Setup",
+    "task": "WhatsApp Template Setup",
+    "description": "MASTER FOR WhatsApp Template Setup AND FILTER DELETE AND EDIT UPDATE",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "WhatsApp Setup",
+    "task": "WhatsApp Group Setup",
+    "description": "MASTER FOR WhatsApp Group Setup AND FILTER DELETE AND EDIT UPDATE",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "WhatsApp Setup",
+    "task": "WhatsApp Trigger Setup",
+    "description": "MASTER FOR WhatsApp Trigger Setup AND FILTER DELETE AND EDIT UPDATE",
+    "status": "DONE"
+  },
+  {
+    "module": "Report",
+    "subModule": "Reports Downloads / Scheduler",
+    "task": "MASTER",
+    "description": "FILTER , LISTING , ADD , UPDATE , FOR SCEDULER REPORT - DATA SEND FROM HERE IN FROPDOWN OF REPORT SCEDULER",
+    "status": "DONE"
+  }
+]
