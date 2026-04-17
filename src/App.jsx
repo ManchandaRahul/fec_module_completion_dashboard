@@ -26,6 +26,7 @@ const MODULE_COLORS = [
   "#3b82f6", "#8b5cf6", "#f59e0b",
   "#10b981", "#ef4444", "#ec4899", "#06b6d4",
 ];
+const DESCRIPTION_PREVIEW_LIMIT = 120;
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -106,6 +107,26 @@ function StatusBadge({ status }) {
       whiteSpace: "nowrap",
     }}>
       {label}
+    </span>
+  );
+}
+
+function DescriptionCell({ description }) {
+  const fullText = description || "";
+  const isTruncated = fullText.length > DESCRIPTION_PREVIEW_LIMIT;
+  const previewText = isTruncated
+    ? `${fullText.slice(0, DESCRIPTION_PREVIEW_LIMIT)}...`
+    : fullText;
+
+  return (
+    <span
+      title={isTruncated ? fullText : ""}
+      style={{
+        color: "#6b7280",
+        fontSize: "0.82rem",
+      }}
+    >
+      {previewText}
     </span>
   );
 }
@@ -651,8 +672,7 @@ margin={{ left: 0, right: 20, top: 10, bottom: 40 }}
                               <td style={{ padding: "8px 12px", color: "#374151" }}>{row.subModule}</td>
                               <td style={{ padding: "8px 12px", color: "#1f2937", maxWidth: "220px" }}>{row.task}</td>
                               <td style={{ padding: "8px 12px", color: "#6b7280", maxWidth: "280px", fontSize: "0.82rem" }}>
-                                {(row.description || "").slice(0, 120)}
-                                {row.description && row.description.length > 120 ? "…" : ""}
+                                <DescriptionCell description={row.description} />
                               </td>
                               <td style={{ padding: "8px 12px" }}>
                                 <StatusBadge status={row.status} />
