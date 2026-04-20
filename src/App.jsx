@@ -4,7 +4,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip,
   ResponsiveContainer, PieChart, Pie, Cell, Legend,
 } from "recharts";
-
+import karuyakiLogo from "./karuyaki.png";
 // ─── Constants ───────────────────────────────────────────────────────────────
 const MASTER_BAR_COLORS = [
   "#3b82f6", "#8b5cf6", "#f59e0b",
@@ -42,6 +42,60 @@ function computeStats(rows) {
   return { total: rows.length, done, pending, awaiting, subModules: subModules.length, byStatus };
 }
 
+function getModuleAccentColor(moduleName, fallbackColor) {
+  if (moduleName === "BTBT") {
+    return "#0f766e";
+  }
+
+  return fallbackColor;
+}
+
+function normalizeStatus(rawStatus) {
+  const normalized = (rawStatus || "").trim().toUpperCase();
+
+  if (!normalized) {
+    return "";
+  }
+
+  if (normalized === "DONE") {
+    return "DONE";
+  }
+
+  if (
+    normalized === "AWAITING CLIENT REQUIREMENT" ||
+    normalized === "AWAITING REQUIREMENT FROM CLIENT" ||
+    normalized === "CLIENT SIDE PENDING"
+  ) {
+    return "AWAITING REQUIREMENT FROM CLIENT";
+  }
+
+  if (normalized === "PENDING") {
+    return "PENDING";
+  }
+
+  return normalized;
+}
+
+async function loadJsonFromCandidates(paths) {
+  for (const path of paths) {
+    try {
+      const res = await fetch(path, { cache: "no-store" });
+      if (!res.ok) {
+        continue;
+      }
+
+      const json = await res.json();
+      if (Array.isArray(json) && json.length > 0) {
+        return json;
+      }
+    } catch (_) {
+      // Try the next candidate path.
+    }
+  }
+
+  return null;
+}
+
 function parseExcel(file) {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -60,7 +114,7 @@ function parseExcel(file) {
             subModule: (r["Sub-Module (Level 2)"] || "").trim(),
             task: (r["Task"] || r["Task "] || "").trim(),
             description: (r["Description / Notes"] || r["Description"] || "").trim(),
-            status: (r["Status"] || r["Status "] || "").trim().toUpperCase(),
+            status: normalizeStatus(r["Status"] || r["Status "] || ""),
           }))
           .filter((r) => r.module && r.task);
         resolve(parsed);
@@ -75,16 +129,19 @@ function parseExcel(file) {
 
 // ─── Sub-components ──────────────────────────────────────────────────────────
 
-function KPICard({ label, value, color, bg }) {
+function KPICard({ label, value, color, bg, onClick, isActive = false }) {
   return (
-    <div style={{
+    <div onClick={onClick} style={{
       background: bg || "#f0f9ff",
       borderRadius: "12px",
       padding: "1.2rem 1.5rem",
       textAlign: "center",
-      border: `2px solid ${color}22`,
+      border: `2px solid ${isActive ? color : `${color}22`}`,
+      boxShadow: isActive ? `0 0 0 3px ${color}22` : "none",
       flex: 1,
       minWidth: "130px",
+      cursor: onClick ? "pointer" : "default",
+      transition: "transform 0.15s ease, box-shadow 0.15s ease",
     }}>
       <div style={{ fontSize: "2rem", fontWeight: "700", color }}>{value}</div>
       <div style={{ fontSize: "0.82rem", color: "#64748b", marginTop: "4px", fontWeight: "500" }}>{label}</div>
@@ -112,7 +169,22 @@ function StatusBadge({ status }) {
 }
 
 function DescriptionCell({ description }) {
-  const fullText = description || "";
+  const formatDescription = (text) => {
+    const normalized = (text || "").toLowerCase();
+    const firstLetterIndex = normalized.search(/[a-z]/i);
+
+    if (firstLetterIndex === -1) {
+      return normalized;
+    }
+
+    return (
+      normalized.slice(0, firstLetterIndex) +
+      normalized.charAt(firstLetterIndex).toUpperCase() +
+      normalized.slice(firstLetterIndex + 1)
+    );
+  };
+
+  const fullText = formatDescription(description);
   const isTruncated = fullText.length > DESCRIPTION_PREVIEW_LIMIT;
   const previewText = isTruncated
     ? `${fullText.slice(0, DESCRIPTION_PREVIEW_LIMIT)}...`
@@ -137,6 +209,7 @@ export default function App() {
   const [rawData, setRawData] = useState([]);
   const [isAdmin, setIsAdmin] = useState(false);
   const [selectedModule, setSelectedModule] = useState("");
+  const [selectedSubModule, setSelectedSubModule] = useState("");
   const [searchText, setSearchText] = useState("");
   const [statusFilter, setStatusFilter] = useState("");
   const [showTopButton, setShowTopButton] = useState(false);
@@ -153,16 +226,18 @@ useEffect(() => {
   // Load saved data from sessionStorage on mount
 useEffect(() => {
   const loadData = async () => {
-    try {
-      const res = await fetch("/latest-report.json");
-      if (res.ok) {
-        const json = await res.json();
-        if (Array.isArray(json) && json.length > 0) {
-          setRawData(json);
-          return;
-        }
-      }
-    } catch (_) {}
+    const json = await loadJsonFromCandidates([
+      "latest-report.json",
+      `${import.meta.env.BASE_URL}latest-report.json`,
+      "/latest-report.json",
+      "/fec_module_completion_dashboard/latest-report.json",
+    ]);
+
+    if (json) {
+      setRawData(json);
+      return;
+    }
+
     // Fallback to sessionStorage
     const saved = sessionStorage.getItem("fec-dashboard-data");
     if (saved) {
@@ -191,6 +266,7 @@ useEffect(() => {
       setRawData(parsed);
       sessionStorage.setItem("fec-dashboard-data", JSON.stringify(parsed));
       setSelectedModule("");
+      setSelectedSubModule("");
       setSearchText("");
       setStatusFilter("");
       setUploadSuccess(`Successfully loaded ${parsed.length} tasks from "${file.name}".`);
@@ -225,7 +301,11 @@ const downloadSessionData = () => {
     ? rawData.filter((r) => r.module === selectedModule)
     : [];
 
-  const filteredRows = moduleRows.filter((r) => {
+  const subModuleFilteredRows = selectedSubModule
+    ? moduleRows.filter((r) => r.subModule === selectedSubModule)
+    : moduleRows;
+
+  const filteredRows = subModuleFilteredRows.filter((r) => {
     const matchSearch =
       !searchText ||
       r.task.toLowerCase().includes(searchText.toLowerCase()) ||
@@ -237,10 +317,7 @@ const downloadSessionData = () => {
 
   const stats = computeStats(filteredRows);
 
-  const moduleAllRows = selectedModule
-    ? rawData.filter((r) => r.module === selectedModule)
-    : [];
-  const allStats = computeStats(moduleAllRows);
+  const allStats = computeStats(subModuleFilteredRows);
 
   const statusChartData = Object.entries(allStats.byStatus).map(([name, value]) => ({
     name: STATUS_LABELS[name] || name,
@@ -250,7 +327,7 @@ const downloadSessionData = () => {
 
   const subModuleData = (() => {
     const map = {};
-    moduleAllRows.forEach((r) => {
+    moduleRows.forEach((r) => {
       if (!r.subModule) return;
       if (!map[r.subModule])
         map[r.subModule] = { DONE: 0, PENDING: 0, "AWAITING REQUIREMENT FROM CLIENT": 0 };
@@ -261,15 +338,27 @@ const downloadSessionData = () => {
       .sort((a, b) => (b.DONE || 0) - (a.DONE || 0));
   })();
 
+  const handleStatusCardClick = (status) => {
+    setStatusFilter((current) => (current === status ? "" : status));
+  };
+
+  const handleSubModuleChartClick = (data) => {
+    const clickedSubModule = data?.payload?.name || data?.activeLabel || data?.name;
+    if (!clickedSubModule) return;
+
+    setSelectedSubModule((current) => current === clickedSubModule ? "" : clickedSubModule);
+  };
+
   const overallModuleData = MODULES.map((m, i) => {
     const rows = rawData.filter((r) => r.module === m);
     const s = computeStats(rows);
+    const defaultColor = MODULE_COLORS[i % MODULE_COLORS.length];
     return {
       name: m,
       total: s.total,
       done: s.done,
       pending: s.pending + s.awaiting,
-      color: MODULE_COLORS[i % MODULE_COLORS.length],
+      color: getModuleAccentColor(m, defaultColor),
     };
   });
 
@@ -432,6 +521,7 @@ const yAxisWidth = subModuleData.length > 12 ? 160 : needsCompactChart ? 140 : 1
                 value={selectedModule}
                 onChange={(e) => {
                   setSelectedModule(e.target.value);
+                  setSelectedSubModule("");
                   setSearchText("");
                   setStatusFilter("");
                 }}
@@ -459,12 +549,82 @@ const yAxisWidth = subModuleData.length > 12 ? 160 : needsCompactChart ? 140 : 1
                   <h3 style={{ margin: "0 0 1rem", color: "#2d3748", fontSize: "1.1rem" }}>
                     {selectedModule} — Overview
                   </h3>
+                  {selectedSubModule && (
+                    <div style={{
+                      marginBottom: "1rem",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.75rem",
+                      flexWrap: "wrap",
+                    }}>
+                      <span style={{
+                        background: "#eff6ff",
+                        color: "#1d4ed8",
+                        border: "1px solid #bfdbfe",
+                        borderRadius: "999px",
+                        padding: "0.35rem 0.75rem",
+                        fontSize: "0.82rem",
+                        fontWeight: "600",
+                      }}>
+                        Sub-module: {selectedSubModule}
+                      </span>
+                      <button
+                        onClick={() => setSelectedSubModule("")}
+                        style={{
+                          border: "none",
+                          background: "transparent",
+                          color: "#2563eb",
+                          cursor: "pointer",
+                          fontSize: "0.85rem",
+                          fontWeight: "600",
+                          padding: 0,
+                        }}
+                      >
+                        Clear sub-module filter
+                      </button>
+                    </div>
+                  )}
                   <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-                    <KPICard label="Sub-Modules" value={stats.subModules} color="#8b5cf6" bg="#faf5ff" />
-                    <KPICard label="Total Tasks" value={stats.total} color="#3b82f6" bg="#eff6ff" />
-                    <KPICard label="Done" value={stats.done} color="#22c55e" bg="#f0fdf4" />
-                    <KPICard label="Pending" value={stats.pending} color="#f59e0b" bg="#fffbeb" />
-                    <KPICard label="Awaiting Requirement" value={stats.awaiting} color="#ef4444" bg="#fef2f2" />
+                    <KPICard
+                      label="Sub-Modules"
+                      value={stats.subModules}
+                      color="#8b5cf6"
+                      bg="#faf5ff"
+                      onClick={() => setStatusFilter("")}
+                      isActive={!statusFilter}
+                    />
+                    <KPICard
+                      label="Total Tasks"
+                      value={stats.total}
+                      color="#3b82f6"
+                      bg="#eff6ff"
+                      onClick={() => setStatusFilter("")}
+                      isActive={!statusFilter}
+                    />
+                    <KPICard
+                      label="Done"
+                      value={stats.done}
+                      color="#22c55e"
+                      bg="#f0fdf4"
+                      onClick={() => handleStatusCardClick("DONE")}
+                      isActive={statusFilter === "DONE"}
+                    />
+                    <KPICard
+                      label="Pending"
+                      value={stats.pending}
+                      color="#f59e0b"
+                      bg="#fffbeb"
+                      onClick={() => handleStatusCardClick("PENDING")}
+                      isActive={statusFilter === "PENDING"}
+                    />
+                    <KPICard
+                      label="Awaiting Requirement"
+                      value={stats.awaiting}
+                      color="#ef4444"
+                      bg="#fef2f2"
+                      onClick={() => handleStatusCardClick("AWAITING REQUIREMENT FROM CLIENT")}
+                      isActive={statusFilter === "AWAITING REQUIREMENT FROM CLIENT"}
+                    />
                   </div>
                 </div>
 
@@ -529,21 +689,21 @@ const yAxisWidth = subModuleData.length > 12 ? 160 : needsCompactChart ? 140 : 1
                               }}
                             />
                             <Tooltip />
-                          <Bar dataKey="DONE" name="Done" barSize={barThickness}>
+                          <Bar dataKey="DONE" name="Done" barSize={barThickness} onClick={handleSubModuleChartClick}>
   {subModuleData.map((entry, index) => {
     const color = MASTER_BAR_COLORS[index % MASTER_BAR_COLORS.length];
     return <Cell key={`done-${index}`} fill={color} />;
   })}
 </Bar>
 
-<Bar dataKey="PENDING" name="Pending" barSize={barThickness}>
+<Bar dataKey="PENDING" name="Pending" barSize={barThickness} onClick={handleSubModuleChartClick}>
   {subModuleData.map((entry, index) => {
     const color = MASTER_BAR_COLORS[index % MASTER_BAR_COLORS.length];
     return <Cell key={`pending-${index}`} fill={color} />;
   })}
 </Bar>
 
-<Bar dataKey="AWAITING REQUIREMENT FROM CLIENT" name="Awaiting" barSize={barThickness}>
+<Bar dataKey="AWAITING REQUIREMENT FROM CLIENT" name="Awaiting" barSize={barThickness} onClick={handleSubModuleChartClick}>
   {subModuleData.map((entry, index) => {
     const color = MASTER_BAR_COLORS[index % MASTER_BAR_COLORS.length];
     return <Cell key={`awaiting-${index}`} fill={color} />;
@@ -582,9 +742,9 @@ margin={{ left: 0, right: 20, top: 10, bottom: 40 }}
   }}
 />
                             <Tooltip />
-                            <Bar dataKey="DONE" stackId="a" fill="#22c55e" name="Done" barSize={barThickness} />
-                            <Bar dataKey="PENDING" stackId="a" fill="#f59e0b" name="Pending" barSize={barThickness} />
-                            <Bar dataKey="AWAITING REQUIREMENT FROM CLIENT" stackId="a" fill="#ef4444" name="Awaiting" barSize={barThickness} />
+                            <Bar dataKey="DONE" stackId="a" fill="#22c55e" name="Done" barSize={barThickness} onClick={handleSubModuleChartClick} />
+                            <Bar dataKey="PENDING" stackId="a" fill="#f59e0b" name="Pending" barSize={barThickness} onClick={handleSubModuleChartClick} />
+                            <Bar dataKey="AWAITING REQUIREMENT FROM CLIENT" stackId="a" fill="#ef4444" name="Awaiting" barSize={barThickness} onClick={handleSubModuleChartClick} />
                           </BarChart>
                         )}
 
@@ -788,10 +948,18 @@ margin={{ left: 0, right: 20, top: 10, bottom: 40 }}
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          gap: "0.75rem",
+          flexWrap: "wrap",
           color: "#4a5568",
           fontSize: "0.85rem",
+          fontWeight: "600",
         }}>
-          FEC-Dev Status Dashboard
+          <span>Catalytic Dashboard Developed by</span>
+        <img
+  src={karuyakiLogo}
+  alt="Karuyaki"
+  style={{ height: "30px", verticalAlign: "middle", marginLeft: "6px" }}
+/>
         </div>
       </div>
 

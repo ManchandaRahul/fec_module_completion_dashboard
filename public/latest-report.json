@@ -1392,13 +1392,6 @@
     "description": "Listing page for view purpose",
     "status": "DONE"
   },
-    {
-    "module": "Imports",
-    "subModule": "Import Live Jobs",
-    "task": "Listing",
-    "description": "Import Live Job management (filters, statistics, update milestone activity popup, assign activity popup, compliance folder popup, query popup, exemption order popup, edox label sheet 1 pdf, multiple milestone updates)",
-    "status": "DONE"
-  },
   {
     "module": "Accounting",
     "subModule": "Submit Payment Request",
@@ -1591,23 +1584,23 @@
   {
     "module": "Export",
     "subModule": "Manage Export",
-    "task": "Awaiting Client Requirement",
-    "description": "Awaiting Client Requirement",
-    "status": "PENDING"
+    "task": "CLIENT SIDE PENDING",
+    "description": "CLIENT SIDE PENDING",
+    "status": "AWAITING REQUIREMENT FROM CLIENT"
   },
   {
     "module": "Export",
     "subModule": "Create Export Manual",
-    "task": "Awaiting Client Requirement",
-    "description": "Awaiting Client Requirement",
-    "status": "PENDING"
+    "task": "CLIENT SIDE PENDING",
+    "description": "CLIENT SIDE PENDING",
+    "status": "AWAITING REQUIREMENT FROM CLIENT"
   },
   {
     "module": "Export",
     "subModule": "Bulk Upload Export",
-    "task": "Awaiting Client Requirement",
-    "description": "Awaiting Client Requirement",
-    "status": "PENDING"
+    "task": "CLIENT SIDE PENDING",
+    "description": "CLIENT SIDE PENDING",
+    "status": "AWAITING REQUIREMENT FROM CLIENT"
   },
   {
     "module": "Report",
@@ -1726,6 +1719,13 @@
     "subModule": "Reports Downloads / Scheduler",
     "task": "MASTER",
     "description": "FILTER , LISTING , ADD , UPDATE , FOR SCEDULER REPORT - DATA SEND FROM HERE IN FROPDOWN OF REPORT SCEDULER",
+    "status": "DONE"
+  },
+  {
+    "module": "Imports",
+    "subModule": "Import Live Jobs",
+    "task": "Listing",
+    "description": "Import Live Job management (filters, statistics, update milestone activity popup, assign activity popup, compliance folder popup, query popup, exemption order popup, edox label sheet 1 pdf, multiple milestone updates)",
     "status": "DONE"
   }
 ]
